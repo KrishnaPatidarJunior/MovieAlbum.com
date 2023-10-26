@@ -1,0 +1,126 @@
+
+ [
+    {
+       "img": "images/movie-1.jpg",
+      "name": "Tiger Zinda Hai"      
+    },
+    {
+      "img": "images/tanhaji.png",
+      "name": "Tanhaji"
+   },
+    {
+ 
+      "name": "Singham",
+      "img": "images/singham.png"
+    },
+    {
+      "name": "War",
+      "img": "images/war.png"
+    },
+    {
+      "name": "Shershaah",
+      "img": "images/shershaah.png"
+    },
+    {
+      "name": "Don-2",
+      "img": "images/Don-2.png"
+    },
+    {
+      "name": "Pagalpanti",
+      "img": "images/pagalpanti.jpg"
+     },
+    {
+      "name": "Dhol",
+      "img": "images/dhol.png"
+   },
+    {
+      "name": "Herapheri",
+      "img": "images/herapheri.png"
+    },
+    {
+      "name": "Khosla Ka Ghosla",
+      "img": "images/khoslakaghosla.png"
+    },
+    {
+      "name": "Non Stop Dhamaal",
+      "img": "images/nonstopdhamaal.png"
+    },
+    {
+      "name": "Welcome",
+      "img": "images/welcome.png"
+    },
+    {
+      "name": "1920",
+      "img": "images/1920.jpg"
+    },
+    {
+      "name": "Aatma",
+      "img": "images/aatma.jpg"
+    },
+    {
+      "name": "Bhoot",
+      "img": "images/bhoot.jpg"
+    },
+    {
+      "name": "Darr",
+      "img": "images/darr.webp"
+    },
+    {
+      "name": "Horror Story",
+      "img": "images/horrorstory.jpg"
+  
+    },
+    {
+      "name": "Raaz",
+      "img": "images/raaz.jpg"
+    },
+    {
+      "name": "Drishyam",
+      "img": "images/drishyam.webp"
+    },
+    {
+      "name": "Kahaani",
+      "img": "images/kahaani.jpg"
+    },
+    {
+      "name": "Raman Raghav-2.0",
+      "img": "images/raman_raghav.webp"
+    },
+    {
+      "name": "Runway-34",
+      "img": "images/runway.jpeg"
+    },
+    {
+      "name": "Talwar",
+      "img": "images/talwar.jpg"
+    },
+    {
+      "name": "Badla",
+      "img": "images/badla.webp"
+    },
+    {
+      "name": "Veer-Zaara",
+      "img": "images/veerzara.jpg"
+    },
+    {
+      "name": "Sita-Ramam",
+      "img": "images/Sita-Ramam.jpg"
+    },
+    {
+      "name": "DDLJ",
+      "img": "images/dilwale_Dulhania.jpg"
+    },
+    {
+      "name": "Jab Tak Hai Jaan",
+      "img": "images/jabtakhaijaan.jpeg"
+    },
+    {
+      "name": "Raanjhanaa",
+      "img": "images/raanjhanaa.jpg"
+    },
+    {
+      "name": "Satya Prem ki Katha",
+      "img": "images/satyapremkikatha.avif"
+    }
+  ]
+  

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieAlbum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="openActionMovie()">
+  <!-- Header Section -->
+  <header>
+    <nav class="flex font">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+      </div>
+      <div class="nav-bar">
+        <ul class="navbar-ul">
+          <li class="navbar-li"><a href="home.html">Home</a></li>
+          <li class="navbar-li"><a href="aboutUs.html">About Us</a></li>
+          <li class="navbar-li"><a href="contactUs.html">Contact Us</a></li>
+          <li class="navbar-li"><a href="login.html">Sign in</a></li>
+          <li class="navbar-li"><a href="registration.html">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- side nav bar -->
+  <div class="sidenav font">
+    <a href="#" onclick="openActionMovie()">Action</a>
+    <a href="#" onclick="openComedyMovie()">Comedy</a>
+    <a href="#" onclick="openHorrorMovie()">Horror</a>
+    <a href="#" onclick="openthriller()">Thriller</a>
+    <a href="#" onclick="openRomanceMovie()">Romance</a>
+  </div>
+  <!-- Main Section -->
+  <main>
+    <!-- Action Movie -->
+    <div class="main-movie-container flex" id="myActionMovie">
+      <div class="movie-container flex">
+        <img src="images/movie-1.jpg" />
+        <h3><a href="moviedetail.html?id=tiger_zinda_hai">Tiger Zinda Hai</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/tanhaji.png" />
+        <h3><a href="moviedetail.html?id=tanhaji">Tanhaji</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/singham.png" />
+        <h3><a href="moviedetail.html?id=singham">Singham</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/war.png" />
+        <h3><a href="moviedetail.html?id=war">War</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/shershaah.png" />
+        <h3><a href="moviedetail.html?id=shershaah">Shershaah</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/Don-2.png" />
+        <h3><a href="moviedetail.html?id=don">Don-2</a></h3>
+      </div>
+    </div>
+    <!-- Comedy Movie -->
+    <div class="main-movie-container flex" id="myComedyMovie">
+      <div class="movie-container flex">
+        <img src="images/pagalpanti.jpg" />
+        <h3><a href="moviedetail.html?id=pagalpanti">Pagalpanti</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/dhol.png" />
+        <h3><a href="moviedetail.html?id=dhol">Dhol</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/herapheri.png" />
+        <h3><a href="moviedetail.html?id=herapheri">Herapheri</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/khoslakaghosla.png" />
+        <h3><a href="moviedetail.html?id=khosla_ka_ghosla">Khosla Ka Ghosla</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/nonstopdhamaal.png" />
+        <h3><a href="moviedetail.html?id=non_stop_dhamaal">Non Stop Dhamaal</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/welcome.png" />
+        <h3><a href="moviedetail.html?id=welcome">Welcome</a></h3>
+      </div>
+    </div>
+    <!-- Horror Movie -->
+    <div class="main-movie-container" id="myHorrorMovie">
+      <div class="movie-container flex">
+        <img src="images/1920.jpg" />
+        <h3><a href="moviedetail.html?id=1920">1920</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/aatma.jpg" />
+        <h3><a href="moviedetail.html?id=aatma">Aatma</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/bhoot.jpg" />
+        <h3><a href="moviedetail.html?id=bhoot">Bhoot</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/darr.webp" />
+        <h3><a href="moviedetail.html?id=darr">Darr</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/horrorstory.jpg" />
+        <h3><a href="moviedetail.html?id=horror_story">Horror Story</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/raaz.jpg" />
+        <h3><a href="moviedetail.html?id=raaz">Raaz</a></h3>
+      </div>
+    </div>
+    <!-- Thriller Movie -->
+    <div class="main-movie-container" id="myThrillerMovie">
+      <div class="movie-container flex">
+        <img src="images/drishyam.webp" />
+        <h3><a href="moviedetail.html?id=drishyam">Drishyam</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/kahaani.jpg" />
+        <h3><a href="moviedetail.html?id=kahaani">Kahaani</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/raman_raghav.webp" />
+        <h3><a href="moviedetail.html?id=raman_raghav">Raman Raghav-2.0</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/runway.jpeg" />
+        <h3><a href="moviedetail.html?id=runway">Runway-34</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/talwar.jpg" />
+        <h3><a href="moviedetail.html?id=talwar">Talwar</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/badla.webp" />
+        <h3><a href="moviedetail.html?id=badla">Badla</a></h3>
+      </div>
+    </div>
+    <!-- Romantic Movie -->
+    <div class="main-movie-container" id="myRomanceMovie">
+      <div class="movie-container flex">
+        <img src="images/veerzara.jpg" />
+        <h3><a href="moviedetail.html?id=veerzaara">Veer Zaara</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/Sita-Ramam.jpg" />
+        <h3><a href="moviedetail.html?id=sitaraman">Sita-Raman</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/dilwale_Dulhania.jpg" />
+        <h3><a href="moviedetail.html?id=ddlj">Dilwale Dulhania le Jayenge</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/jabtakhaijaan.jpeg" />
+        <h3><a href="moviedetail.html?id=Jabtakhaijaan">Jab Tak Hai Jaan</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/raanjhanaa.jpg" />
+        <h3><a href="moviedetail.html?id=raanjhanaa">Raanjhanaa</a></h3>
+      </div>
+      <div class="movie-container flex">
+        <img src="images/satyapremkikatha.avif" />
+        <h3><a href="moviedetail.html?id=satyapremkikatha">Satya Prem ki Katha</a></h3>
+      </div>
+    </div>
+  </main>
+  <!-- Footer Section -->
+  <footer class="footer flex">
+    <div class="footer_text font ">
+      Copyright &#169; 2023 | Designed by MovieAlbum.com
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
